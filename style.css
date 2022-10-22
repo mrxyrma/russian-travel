@@ -18,6 +18,20 @@
 @import url(./blocks/lead/__image/lead__image.css);
 @import url(./blocks/lead/__caption/lead__caption.css);
 
+
+
+/* Фото-гриды */
+@import url(./blocks/photo-grid/photo-grid.css);
+@import url(./blocks/photo-grid/__item/photo-grid__item.css);
+
+
+/* До Байкала "на собаках" */
+@import url(./blocks/cover/cover.css);
+@import url(./blocks/cover/__background/cover__background.css);
+@import url(./blocks/cover/__title/cover__title.css);
+@import url(./blocks/cover/__subtitle/cover__subtitle.css);
+
+
 /* Footer */
 @import url(./blocks/footer/footer.css);
 @import url(./blocks/footer/__links/footer__links.css);

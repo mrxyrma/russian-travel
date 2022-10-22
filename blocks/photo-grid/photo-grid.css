@@ -1,0 +1,37 @@
+.photo-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 16px;
+  margin-bottom: 92px;
+}
+
+@media screen and (max-width: 1100px) {
+  .photo-grid {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 14px;
+  }
+  
+}
+
+@media screen and (max-width: 820px) {
+  .photo-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 16px;
+  }
+  
+}
+
+@media screen and (max-width: 470px) {
+  .photo-grid {
+    grid-template-columns: 1fr;
+    gap: 12px;
+  }
+  
+}
+
+/*
+1280
+1024
+768
+320
+*/
