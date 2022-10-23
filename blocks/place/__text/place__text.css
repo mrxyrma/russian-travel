@@ -1,5 +1,4 @@
 .place__text {
   display: grid;
   row-gap: 26px;
-  align-self: start;
 }

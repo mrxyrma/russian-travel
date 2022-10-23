@@ -1,0 +1,18 @@
+.cover__link {
+  position: relative;
+  display: block;
+}
+
+.cover__link:hover {
+  opacity: .6;
+}
+
+.cover__link::before {
+  content: "";
+  position: absolute;
+  background: #2A2C2F;
+  opacity: .3;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+}
