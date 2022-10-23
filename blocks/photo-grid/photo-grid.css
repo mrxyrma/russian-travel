@@ -17,16 +17,16 @@
   .photo-grid {
     grid-template-columns: repeat(2, 1fr);
     gap: 16px;
+    margin-bottom: 88px;
   }
-  
 }
 
 @media screen and (max-width: 470px) {
   .photo-grid {
     grid-template-columns: 1fr;
     gap: 12px;
+    margin-bottom: 64px;
   }
-  
 }
 
 /*

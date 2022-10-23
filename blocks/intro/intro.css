@@ -1,16 +1,16 @@
-.cover {
-  position: relative;
+.intro {
+  max-width: 690px;
   margin-bottom: 92px;
 }
 
 @media screen and (max-width: 820px) {
-  .cover {
+  .intro {
     margin-bottom: 88px;
   }
 }
 
-@media screen and (max-width: 725px) {
-  .cover {
+@media screen and (max-width: 470px) {
+  .intro {
     margin-bottom: 64px;
   }
 }
