@@ -5,7 +5,13 @@
 
 @media screen and (max-width: 1070px) {
   .places {
-    max-width: 92%;
+    width: 92%;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .places {
+    width: 100%;
   }
 }
 
