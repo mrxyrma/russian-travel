@@ -1,5 +1,7 @@
 .place__text {
+  grid-area: article;
   display: grid;
+  grid-template-rows: min-content;
   row-gap: 26px;
 }
 
