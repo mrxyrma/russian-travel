@@ -1,24 +1,9 @@
 .intro {
   max-width: 690px;
-  margin-bottom: 92px;
-  margin-left: calc((100% - 984px)/2);
 }
 
-@media screen and (max-width: 1070px) {
+@media screen and (max-width: 984px) {
   .intro {
-    margin-left: 4%;
-    margin-bottom: 88px;
-  }
-}
-
-@media screen and (max-width: 750px) {
-  .intro {
-    max-width: 92%;
-  }
-}
-
-@media screen and (max-width: 470px) {
-  .intro {
-    margin-bottom: 64px;
+    max-width: 100%;
   }
 }

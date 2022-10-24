@@ -1,22 +1,17 @@
 .places {
-  margin: 0 auto 92px;
   max-width: 984px;
+  display: grid;
+  row-gap: 80px;
 }
 
-@media screen and (max-width: 1070px) {
+@media screen and (max-width: 984px) {
   .places {
-    width: 92%;
+    row-gap: 73px;
   }
 }
 
-@media screen and (max-width: 650px) {
+@media screen and (max-width: 568px) {
   .places {
-    width: 100%;
-  }
-}
-
-@media screen and (max-width: 470px) {
-  .places {
-    margin-bottom: 66px;
+    row-gap: 50px;
   }
 }
